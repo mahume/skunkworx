@@ -1,0 +1,11 @@
+/Users/mahume/Code/Projects/SkunkWorx/bin/Debug/netcoreapp3.0/SkunkWorx
+/Users/mahume/Code/Projects/SkunkWorx/bin/Debug/netcoreapp3.0/SkunkWorx.deps.json
+/Users/mahume/Code/Projects/SkunkWorx/bin/Debug/netcoreapp3.0/SkunkWorx.runtimeconfig.json
+/Users/mahume/Code/Projects/SkunkWorx/bin/Debug/netcoreapp3.0/SkunkWorx.runtimeconfig.dev.json
+/Users/mahume/Code/Projects/SkunkWorx/bin/Debug/netcoreapp3.0/SkunkWorx.dll
+/Users/mahume/Code/Projects/SkunkWorx/bin/Debug/netcoreapp3.0/SkunkWorx.pdb
+/Users/mahume/Code/Projects/SkunkWorx/obj/Debug/netcoreapp3.0/SkunkWorx.csprojAssemblyReference.cache
+/Users/mahume/Code/Projects/SkunkWorx/obj/Debug/netcoreapp3.0/SkunkWorx.AssemblyInfoInputs.cache
+/Users/mahume/Code/Projects/SkunkWorx/obj/Debug/netcoreapp3.0/SkunkWorx.AssemblyInfo.cs
+/Users/mahume/Code/Projects/SkunkWorx/obj/Debug/netcoreapp3.0/SkunkWorx.dll
+/Users/mahume/Code/Projects/SkunkWorx/obj/Debug/netcoreapp3.0/SkunkWorx.pdb
