@@ -2,19 +2,29 @@ namespace SkunkWorx
 {
   class Employee
   {
-    public string FirstName;
-    public string LastName;
-    public int Id;
-    public string PhotoURL;
+    private string FirstName;
+    private string LastName;
+    private int Id;
+    private string PhotoURL;
 
-    public Employee(string firstName, string lastName)
+    public Employee(string firstName, string lastName, int id, string photoUrl)
     {
       FirstName = firstName;
       LastName = lastName;
+      Id = id;
+      PhotoURL = photoUrl;
     }
     public string GetName()
     {
-      return $"{this.FirstName} {this.LastName}";
+      return $"{FirstName} {LastName}";
+    }
+    public int GetId()
+    {
+      return Id;
+    }
+    public string GetPhotoURL()
+    {
+      return PhotoURL;
     }
   }
 }
