@@ -8,7 +8,7 @@ namespace SkunkWorx
     static void Main(string[] args)
     {
       List<Employee> employees = GetEmployees();
-      PrintEmployees(employees);
+      Util.PrintEmployees(employees);
     }
 
     static List<Employee> GetEmployees()
@@ -37,15 +37,6 @@ namespace SkunkWorx
       };
 
       return employees;
-    }
-
-    static void PrintEmployees(List<Employee> employees)
-    {
-      for (int i = 0; i < employees.Count; i++)
-      {
-        string template = "{0,-10}\t{1,-20}\t{2}";
-        Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetName(), employees[i].GetPhotoURL()));
-      }
     }
   }
 }
