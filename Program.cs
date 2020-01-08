@@ -24,8 +24,8 @@ namespace SkunkWorx
         {
           break;
         }
-        Employee currentEmployee = new Employee();
-        employees.Add(input);
+        Employee currentEmployee = new Employee(input, "Smith");
+        employees.Add(currentEmployee.GetName());
       };
 
       return employees;
