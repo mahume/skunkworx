@@ -14,16 +14,17 @@ namespace SkunkWorx
     static List<string> GetEmployees()
     {
       List<string> employees = new List<string>();
+      Console.WriteLine("(Press enter w/o a name to exit)");
 
       while (true)
       {
         Console.WriteLine("Please enter a name:");
-        Console.WriteLine("(Press enter w/o a name to exit)");
         string input = Console.ReadLine();
         if (input == "")
         {
           break;
         }
+        Employee currentEmployee = new Employee();
         employees.Add(input);
       };
 

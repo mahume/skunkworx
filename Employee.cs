@@ -1,0 +1,7 @@
+namespace SkunkWorx
+{
+  class Employee
+  {
+
+  }
+}
