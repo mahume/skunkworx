@@ -9,6 +9,7 @@ namespace SkunkWorx
     {
       List<Employee> employees = GetEmployees();
       Util.PrintEmployees(employees);
+      Util.MakeCSV(employees);
     }
 
     static List<Employee> GetEmployees()
