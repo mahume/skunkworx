@@ -17,10 +17,10 @@ namespace SkunkWorx
 
     public static void MakeCSV(List<Employee> employees)
     {
-      if (!Directory.Exists("data")
+      if (!Directory.Exists("data"))
       {
         Directory.CreateDirectory("data");
-      }
+      };
     }
   }
 }
