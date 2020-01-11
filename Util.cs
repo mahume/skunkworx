@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Drawing;
 
 namespace SkunkWorx
 {
@@ -34,6 +35,10 @@ namespace SkunkWorx
           file.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetName(), employees[i].GetPhotoURL()));
         }
       }
+    }
+    public static void MakeBadges(List<Employee> employees)
+    {
+      Image newImage = Image.FromFile("badge.png");
     }
   }
 }
